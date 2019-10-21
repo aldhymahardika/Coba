@@ -1,0 +1,203 @@
+[2019-10-19 04:36:01] local.ERROR: Command "auth" is not defined.
+
+Did you mean one of these?
+    auth:clear-resets
+    make:auth {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"auth\" is not defined.
+
+Did you mean one of these?
+    auth:clear-resets
+    make:auth at D:\\aldhy\\Laravel\\blog\\vendor\\symfony\\console\\Application.php:660)
+[stacktrace]
+#0 D:\\aldhy\\Laravel\\blog\\vendor\\symfony\\console\\Application.php(237): Symfony\\Component\\Console\\Application->find('auth')
+#1 D:\\aldhy\\Laravel\\blog\\vendor\\symfony\\console\\Application.php(149): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(89): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 D:\\aldhy\\Laravel\\blog\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2019-10-19 04:54:09] local.ERROR: Command "make:middlleware" is not defined.
+
+Did you mean one of these?
+    make:auth
+    make:channel
+    make:command
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:seeder
+    make:test {"exception":"[object] (Symfony\\Component\\Console\\Exception\\CommandNotFoundException(code: 0): Command \"make:middlleware\" is not defined.
+
+Did you mean one of these?
+    make:auth
+    make:channel
+    make:command
+    make:controller
+    make:event
+    make:exception
+    make:factory
+    make:job
+    make:listener
+    make:mail
+    make:middleware
+    make:migration
+    make:model
+    make:notification
+    make:observer
+    make:policy
+    make:provider
+    make:request
+    make:resource
+    make:rule
+    make:seeder
+    make:test at D:\\aldhy\\Laravel\\blog\\vendor\\symfony\\console\\Application.php:660)
+[stacktrace]
+#0 D:\\aldhy\\Laravel\\blog\\vendor\\symfony\\console\\Application.php(237): Symfony\\Component\\Console\\Application->find('make:middllewar...')
+#1 D:\\aldhy\\Laravel\\blog\\vendor\\symfony\\console\\Application.php(149): Symfony\\Component\\Console\\Application->doRun(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#2 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Console\\Application.php(89): Symfony\\Component\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#3 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(122): Illuminate\\Console\\Application->run(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#4 D:\\aldhy\\Laravel\\blog\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#5 {main}
+"} 
+[2019-10-19 05:05:47] local.ERROR: Class App\Http\Controllers\SiteController does not exist {"exception":"[object] (ReflectionException(code: -1): Class App\\Http\\Controllers\\SiteController does not exist at D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php:779)
+[stacktrace]
+#0 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(779): ReflectionClass->__construct('App\\\\Http\\\\Contro...')
+#1 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(658): Illuminate\\Container\\Container->build('App\\\\Http\\\\Contro...')
+#2 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(609): Illuminate\\Container\\Container->resolve('App\\\\Http\\\\Contro...', Array)
+#3 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(735): Illuminate\\Container\\Container->make('App\\\\Http\\\\Contro...', Array)
+#4 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(226): Illuminate\\Foundation\\Application->make('App\\\\Http\\\\Contro...')
+#5 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(796): Illuminate\\Routing\\Route->getController()
+#6 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Route.php(757): Illuminate\\Routing\\Route->controllerMiddleware()
+#7 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(695): Illuminate\\Routing\\Route->gatherMiddleware()
+#8 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(675): Illuminate\\Routing\\Router->gatherRouteMiddleware(Object(Illuminate\\Routing\\Route))
+#9 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(659): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#10 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(625): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#11 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(614): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#12 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(176): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#13 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(30): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#14 D:\\aldhy\\Laravel\\blog\\vendor\\fideloper\\proxy\\src\\TrustProxies.php(57): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#15 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(151): Fideloper\\Proxy\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#16 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#17 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(31): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#18 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(151): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#19 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#20 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(31): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#21 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(151): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#23 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#24 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(151): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode.php(62): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#27 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(151): Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#28 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#29 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(104): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#30 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(151): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#31 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#32 D:\\aldhy\\Laravel\\blog\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#33 D:\\aldhy\\Laravel\\blog\\server.php(21): require_once('D:\\\\aldhy\\\\Larave...')
+#34 {main}
+"} 
+[2019-10-19 05:06:36] local.ERROR: Cannot redeclare App\Http\Middleware\CekRole::handle() {"userId":1,"email":"aldhy@mahardika.com","exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalErrorException(code: 64): Cannot redeclare App\\Http\\Middleware\\CekRole::handle() at D:\\aldhy\\Laravel\\blog\\app\\Http\\Middleware\\CekRole.php:21)
+[stacktrace]
+#0 {main}
+"} 
+[2019-10-19 05:08:23] local.ERROR: Trying to get property 'nama' of non-object {"userId":1,"email":"aldhy@mahardika.com","exception":"[object] (ErrorException(code: 0): Trying to get property 'nama' of non-object at D:\\aldhy\\Laravel\\blog\\app\\User.php:67)
+[stacktrace]
+#0 D:\\aldhy\\Laravel\\blog\\app\\User.php(67): Illuminate\\Foundation\\Bootstrap\\HandleExceptions->handleError(8, 'Trying to get p...', 'D:\\\\aldhy\\\\Larave...', 67, Array)
+#1 D:\\aldhy\\Laravel\\blog\\app\\User.php(56): App\\User->cekUserRole('Tamu')
+#2 D:\\aldhy\\Laravel\\blog\\app\\Http\\Middleware\\CekRole.php(21): App\\User->hasRole('Tamu')
+#3 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(151): App\\Http\\Middleware\\CekRole->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#4 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#5 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Middleware\\SubstituteBindings.php(41): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#6 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(151): Illuminate\\Routing\\Middleware\\SubstituteBindings->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#7 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#8 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Auth\\Middleware\\Authenticate.php(43): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#9 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(151): Illuminate\\Auth\\Middleware\\Authenticate->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#10 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#11 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken.php(75): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#12 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(151): Illuminate\\Foundation\\Http\\Middleware\\VerifyCsrfToken->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#13 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#14 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\View\\Middleware\\ShareErrorsFromSession.php(49): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#15 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(151): Illuminate\\View\\Middleware\\ShareErrorsFromSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#16 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#17 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Session\\Middleware\\StartSession.php(63): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#18 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(151): Illuminate\\Session\\Middleware\\StartSession->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#19 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#20 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse.php(37): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#21 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(151): Illuminate\\Cookie\\Middleware\\AddQueuedCookiesToResponse->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#22 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#23 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Cookie\\Middleware\\EncryptCookies.php(66): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#24 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(151): Illuminate\\Cookie\\Middleware\\EncryptCookies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#25 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#26 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(104): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#27 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(684): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#28 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(659): Illuminate\\Routing\\Router->runRouteWithinStack(Object(Illuminate\\Routing\\Route), Object(Illuminate\\Http\\Request))
+#29 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(625): Illuminate\\Routing\\Router->runRoute(Object(Illuminate\\Http\\Request), Object(Illuminate\\Routing\\Route))
+#30 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(614): Illuminate\\Routing\\Router->dispatchToRoute(Object(Illuminate\\Http\\Request))
+#31 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(176): Illuminate\\Routing\\Router->dispatch(Object(Illuminate\\Http\\Request))
+#32 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(30): Illuminate\\Foundation\\Http\\Kernel->Illuminate\\Foundation\\Http\\{closure}(Object(Illuminate\\Http\\Request))
+#33 D:\\aldhy\\Laravel\\blog\\vendor\\fideloper\\proxy\\src\\TrustProxies.php(57): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#34 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(151): Fideloper\\Proxy\\TrustProxies->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#35 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#36 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(31): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#37 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(151): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#38 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#39 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest.php(31): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#40 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(151): Illuminate\\Foundation\\Http\\Middleware\\TransformsRequest->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#41 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#42 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize.php(27): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#43 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(151): Illuminate\\Foundation\\Http\\Middleware\\ValidatePostSize->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#44 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#45 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode.php(62): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#46 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(151): Illuminate\\Foundation\\Http\\Middleware\\CheckForMaintenanceMode->handle(Object(Illuminate\\Http\\Request), Object(Closure))
+#47 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Pipeline.php(53): Illuminate\\Pipeline\\Pipeline->Illuminate\\Pipeline\\{closure}(Object(Illuminate\\Http\\Request))
+#48 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Pipeline\\Pipeline.php(104): Illuminate\\Routing\\Pipeline->Illuminate\\Routing\\{closure}(Object(Illuminate\\Http\\Request))
+#49 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(151): Illuminate\\Pipeline\\Pipeline->then(Object(Closure))
+#50 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Http\\Kernel.php(116): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#51 D:\\aldhy\\Laravel\\blog\\public\\index.php(55): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#52 D:\\aldhy\\Laravel\\blog\\server.php(21): require_once('D:\\\\aldhy\\\\Larave...')
+#53 {main}
+"} 
+[2019-10-19 06:36:32] local.ERROR: syntax error, unexpected 'return' (T_RETURN) {"exception":"[object] (Symfony\\Component\\Debug\\Exception\\FatalThrowableError(code: 0): syntax error, unexpected 'return' (T_RETURN) at D:\\aldhy\\Laravel\\blog\outes\\web.php:23)
+[stacktrace]
+#0 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\Router.php(373): Illuminate\\Routing\\Router->loadRoutes('D:\\\\aldhy\\\\Larave...')
+#1 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Routing\\RouteRegistrar.php(121): Illuminate\\Routing\\Router->group(Array, 'D:\\\\aldhy\\\\Larave...')
+#2 D:\\aldhy\\Laravel\\blog\\app\\Providers\\RouteServiceProvider.php(56): Illuminate\\Routing\\RouteRegistrar->group('D:\\\\aldhy\\\\Larave...')
+#3 D:\\aldhy\\Laravel\\blog\\app\\Providers\\RouteServiceProvider.php(40): App\\Providers\\RouteServiceProvider->mapWebRoutes()
+#4 [internal function]: App\\Providers\\RouteServiceProvider->map()
+#5 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(29): call_user_func_array(Array, Array)
+#6 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(87): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#7 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(31): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#8 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(572): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#9 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(77): Illuminate\\Container\\Container->call(Array)
+#10 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider.php(36): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->loadRoutes()
+#11 D:\\aldhy\\Laravel\\blog\\app\\Providers\\RouteServiceProvider.php(28): Illuminate\\Foundation\\Support\\Providers\\RouteServiceProvider->boot()
+#12 [internal function]: App\\Providers\\RouteServiceProvider->boot()
+#13 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(29): call_user_func_array(Array, Array)
+#14 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(87): Illuminate\\Container\\BoundMethod::Illuminate\\Container\\{closure}()
+#15 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\BoundMethod.php(31): Illuminate\\Container\\BoundMethod::callBoundMethod(Object(Illuminate\\Foundation\\Application), Array, Object(Closure))
+#16 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Container\\Container.php(572): Illuminate\\Container\\BoundMethod::call(Object(Illuminate\\Foundation\\Application), Array, Array, NULL)
+#17 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(795): Illuminate\\Container\\Container->call(Array)
+#18 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(778): Illuminate\\Foundation\\Application->bootProvider(Object(App\\Providers\\RouteServiceProvider))
+#19 [internal function]: Illuminate\\Foundation\\Application->Illuminate\\Foundation\\{closure}(Object(App\\Providers\\RouteServiceProvider), 20)
+#20 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(779): array_walk(Array, Object(Closure))
+#21 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Bootstrap\\BootProviders.php(17): Illuminate\\Foundation\\Application->boot()
+#22 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Application.php(204): Illuminate\\Foundation\\Bootstrap\\BootProviders->bootstrap(Object(Illuminate\\Foundation\\Application))
+#23 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(297): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#24 D:\\aldhy\\Laravel\\blog\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Console\\Kernel.php(120): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#25 D:\\aldhy\\Laravel\\blog\\artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#26 {main}
+"} 
